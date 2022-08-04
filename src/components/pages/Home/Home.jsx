@@ -2,11 +2,15 @@ import * as React from "react"
 import { Container, Row, Button } from "reactstrap"
 
 const Home = (props) => {
-  const {  } = props
+  const { products  } = props
 
   return (
     <Container fluid>
-     Holaaaaaaaaaaa
+     {
+      products?.map(product => (
+        <h2 key={product.name}>{product.name}</h2>
+      ))
+     }
     </Container>
   )
 }
