@@ -6,11 +6,12 @@ const Home = (props) => {
 
   return (
     <Container fluid>
-     {
+     {/* {
       products?.map(product => (
         <h2 key={product.name}>{product.name}</h2>
       ))
-     }
+     } */}
+     APP MENUES
     </Container>
   )
 }
